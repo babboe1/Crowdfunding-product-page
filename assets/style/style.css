@@ -2,9 +2,14 @@ html,
 body {
 	padding: 0;
 	margin: 0;
+   background: url(/assets/images/image-hero-desktop.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
 }
 * {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 }
+/* #parent-container {
+	 */
