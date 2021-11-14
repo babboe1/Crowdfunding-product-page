@@ -2,9 +2,11 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-   background: url(/assets/images/image-hero-desktop.jpg);
-	background-size:cover;
+	background: url(/assets/images/image-hero-desktop.jpg);
+	background-size: 100%;
 	background-repeat: no-repeat;
+	font-family: 'Commissioner', sans-serif;
+	font-family: 'Red Hat Display', sans-serif;
 }
 * {
 	box-sizing: border-box;
