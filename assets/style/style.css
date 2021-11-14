@@ -13,5 +13,44 @@ body {
 	padding: 0;
 	margin: 0;
 }
-/* #parent-container {
-	 */
+#parent_container {
+	margin: auto;
+	border: 1px solid red;
+	max-width: 80rem;
+}
+#nav_bar {
+   padding-top:50px;
+	border: 1px solid green;
+	display: flex;
+	justify-content: space-between;
+	height: 25rem;
+}
+#right_bar {
+	display: flex;
+	border: 1px solid green;
+}
+.NavText {
+	color: rgb(219, 214, 214);
+	padding-left: 2.5rem;
+}
+#content_container {
+   border: 1px solid yellow;
+   margin: auto;
+   max-width:800px;
+   display:flex;
+   flex-direction: column;
+}
+#top_icon{
+   border: 1px solid brown;
+   display: flex;
+   justify-content:center;
+   z-index: 100;
+}
+.MajorContent{
+   background-color: #fff;
+   border: 1px solid black;
+   padding: 3rem;
+}
+#bookmark_box {
+   margin-top:-30px;
+}
