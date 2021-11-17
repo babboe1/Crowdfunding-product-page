@@ -96,6 +96,40 @@ body {
 #bookmark_text{
    padding: 20px 30px  20px 10px;
 }
+#fund_status_box{
+   border: 1px solid red;
+}
+progress {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   width: 100%;
+   height: 1rem;
+   color: #39b5ab;
+   border: 1px solid ;
+   border-radius: 10px;
+}
+
+progress[value]::-webkit-progress-bar,
+progress[value] {
+   background-color: #eee;
+   border-radius: 10px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+   background-color: #39b5ab;
+   border-radius: 10px;
+   transition: all 0.2s ease-out;
+}
+
+progress[value]::-moz-progress-bar {
+   background-color: #39b5ab;
+   border-radius: 10px;
+   transition: all 0.2s ease-out;
+}
+
+
 
 
 
