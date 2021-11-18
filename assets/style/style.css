@@ -7,7 +7,6 @@ body {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	font-family: 'Commissioner', sans-serif;
-	font-family: 'Red Hat Display', sans-serif;
 	color: #848484;
 }
 * {
@@ -17,7 +16,6 @@ body {
 }
 #parent_container {
 	margin: auto;
-	border: 1px solid red;
 	max-width: 80rem;
 }
 #nav_bar {
@@ -72,7 +70,7 @@ body {
 	justify-content: space-between;
 	text-align: center;
 }
-#back_project_box {
+.BackProjectBox {
 	border-radius: 40px;
 	padding: 20px 35px;
 	background-color: #39b5ab;
@@ -140,12 +138,30 @@ progress[value]::-moz-progress-bar {
    padding-bottom: 2rem;
 }
 .PledgeBox {
-	border: 1px solid blue;
+	border: 1px solid #dbdbdb;
    border-radius: .5rem;
 	margin-bottom: 1.5rem;
 	padding: 2rem;
 }
-
+.pledge-box-header{
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 2rem;;
+}
+.pledge-box-footer{
+   display: flex;
+   justify-content: space-between;
+   padding-top:2rem;
+}
+.PledgeAmount{
+   color: #39b5ab;
+   font-weight: bold;
+}
+.pledgeName{
+   font-size:1.2rem;
+   font-weight:700;
+   color: black;
+}
 
 
 
