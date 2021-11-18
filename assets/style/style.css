@@ -8,7 +8,7 @@ body {
 	background-repeat: no-repeat;
 	font-family: 'Commissioner', sans-serif;
 	font-family: 'Red Hat Display', sans-serif;
-   color: #848484;
+	color: #848484;
 }
 * {
 	box-sizing: border-box;
@@ -22,28 +22,24 @@ body {
 }
 #nav_bar {
 	padding-top: 50px;
-	border: 1px solid green;
 	display: flex;
 	justify-content: space-between;
 	height: 23rem;
 }
 #right_bar {
 	display: flex;
-	border: 1px solid green;
 }
 .NavText {
 	color: rgb(219, 214, 214);
 	padding-left: 2.5rem;
 }
 #content_container {
-	border: 1px solid yellow;
 	margin: auto;
 	max-width: 800px;
 	display: flex;
 	flex-direction: column;
 }
 #top_icon {
-	border: 1px solid brown;
 	display: flex;
 	justify-content: center;
 	z-index: 100;
@@ -62,87 +58,93 @@ body {
 #bookmark_top {
 	text-align: center;
 	max-width: 31.5rem;
-	border: 1px solid blue;
 	margin: auto;
 }
 .BigText {
-   color: black;
+	color: black;
 	font-size: 27px;
 	font-weight: 700;
 	padding: 0 0 20px;
 }
-#bookmark_bottom{
-   border: 1px solid red;
-   padding-top: 35px;
-   display: flex;
-   justify-content: space-between;
-   text-align: center;
+#bookmark_bottom {
+	padding-top: 35px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
 }
 #back_project_box {
-   border : 1px solid yellow;
-   border-radius: 40px;
-   padding: 20px 35px;
-   background-color: #39b5ab;
-   color:#fff;
-   font-weight: 700;
+	border-radius: 40px;
+	padding: 20px 35px;
+	background-color: #39b5ab;
+	color: #fff;
+	font-weight: 700;
 }
-#bookmark_icon{
-   border : 1px solid yellow;
-   border-radius: 40px;
-   display: flex;
-   background-color: #f4f4f4;
-   font-weight: 700;
+#bookmark_icon {
+	border-radius: 40px;
+	display: flex;
+	background-color: #f4f4f4;
+	font-weight: 700;
 }
-#bookmark_text{
-   padding: 20px 30px  20px 10px;
+#bookmark_text {
+	padding: 20px 30px 20px 10px;
 }
-#fund_status_box{
-   border: 1px solid red;
+#fund_status {
+	display: flex;
+	padding-bottom: 30px;
+}
+.StatusBox {
+	border-right: 1px solid;
+	width: calc(100% / 3);
+}
+.StatusBigText {
+	font-size: 2rem;
+	font-weight: 700;
+	color: black;
+	padding-bottom: 0.5rem;
 }
 progress {
-   -webkit-appearance: none;
-   -moz-appearance: none;
-   appearance: none;
-   width: 100%;
-   height: 1rem;
-   color: #39b5ab;
-   border: 1px solid ;
-   border-radius: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 100%;
+	height: 1rem;
+	color: #39b5ab;
+	border-radius: 10px;
 }
 
 progress[value]::-webkit-progress-bar,
 progress[value] {
-   background-color: #eee;
-   border-radius: 10px;
-   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+	background-color: #eee;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
 }
 
 progress[value]::-webkit-progress-value {
-   background-color: #39b5ab;
-   border-radius: 10px;
-   transition: all 0.2s ease-out;
+	background-color: #39b5ab;
+	border-radius: 10px;
+	transition: all 0.2s ease-out;
 }
 
 progress[value]::-moz-progress-bar {
-   background-color: #39b5ab;
-   border-radius: 10px;
-   transition: all 0.2s ease-out;
+	background-color: #39b5ab;
+	border-radius: 10px;
+	transition: all 0.2s ease-out;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#about_project {
+   padding-bottom: 2.8rem;
+}
+#about_header{
+   font-size:1.5rem;
+   font-weight:700;
+   color: black;
+   padding-bottom: 2rem;
+}
+.PledgeBox {
+	border: 1px solid blue;
+   border-radius: .5rem;
+	margin-bottom: 1.5rem;
+	padding: 2rem;
+}
 
 
 
