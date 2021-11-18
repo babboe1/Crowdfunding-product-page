@@ -2,7 +2,7 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	background: url(/assets/images/image-hero-desktop.jpg);
+	background: url(/assets/images/image-hero-mobile.jpg);
 	background-color: #fafafa;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -19,13 +19,13 @@ body {
 	max-width: 80rem;
 }
 #nav_bar {
-	padding-top: 50px;
+	padding: 20px 20px 0;
 	display: flex;
 	justify-content: space-between;
 	height: 23rem;
 }
 #right_bar {
-	display: flex;
+	display: none;
 }
 .NavText {
 	color: rgb(219, 214, 214);
@@ -33,6 +33,8 @@ body {
 }
 #content_container {
 	margin: auto;
+	margin-top: -10rem;
+	width: 85%;
 	max-width: 800px;
 	display: flex;
 	flex-direction: column;
@@ -60,7 +62,7 @@ body {
 }
 .BigText {
 	color: black;
-	font-size: 27px;
+	font-size: 22px;
 	font-weight: 700;
 	padding: 0 0 20px;
 }
@@ -72,10 +74,12 @@ body {
 }
 .BackProjectBox {
 	border-radius: 40px;
-	padding: 20px 35px;
+	padding: 22px 16px;
 	background-color: #39b5ab;
 	color: #fff;
 	font-weight: 700;
+	font-size: 14px;
+	width: 70%;
 }
 #bookmark_icon {
 	border-radius: 40px;
@@ -84,18 +88,23 @@ body {
 	font-weight: 700;
 }
 #bookmark_text {
+	display: none;
 	padding: 20px 30px 20px 10px;
 }
 #fund_status {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
 	padding-bottom: 30px;
+	text-align: center;
 }
 .StatusBox {
-	border-right: 1px solid;
-	width: calc(100% / 3);
+	width: auto;
+	border-bottom: 1px solid #bdbdbd;
+	padding: 0.5rem 0;
 }
 .StatusBigText {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-weight: 700;
 	color: black;
 	padding-bottom: 0.5rem;
@@ -129,38 +138,40 @@ progress[value]::-moz-progress-bar {
 	transition: all 0.2s ease-out;
 }
 #about_project {
-   padding-bottom: 2.8rem;
+	padding-bottom: 2.8rem;
 }
-#about_header{
-   font-size:1.5rem;
-   font-weight:700;
-   color: black;
-   padding-bottom: 2rem;
+#about_header {
+	font-size: 18px;
+	font-weight: 700;
+	color: black;
+	padding-bottom: 1rem;
 }
 .PledgeBox {
 	border: 1px solid #dbdbdb;
-   border-radius: .5rem;
+	border-radius: 0.5rem;
 	margin-bottom: 1.5rem;
 	padding: 2rem;
 }
-.pledge-box-header{
-   display: flex;
-   justify-content: space-between;
-   padding-bottom: 2rem;;
+.pledge-box-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-bottom: 2rem;
 }
-.pledge-box-footer{
-   display: flex;
-   justify-content: space-between;
-   padding-top:2rem;
+.pledge-box-footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-top: 2rem;
 }
-.PledgeAmount{
-   color: #39b5ab;
-   font-weight: bold;
+.PledgeAmount {
+	color: #39b5ab;
+	font-weight: bold;
 }
-.pledgeName{
-   font-size:1.2rem;
-   font-weight:700;
-   color: black;
+.pledgeName {
+	font-size: 1rem;
+	font-weight: 700;
+	color: black;
 	padding-bottom: 0.5rem;
 }
 @media screen and (min-width: 700px) {
@@ -239,25 +250,3 @@ progress[value]::-moz-progress-bar {
 		max-width: 800px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
