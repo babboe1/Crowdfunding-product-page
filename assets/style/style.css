@@ -161,6 +161,83 @@ progress[value]::-moz-progress-bar {
    font-size:1.2rem;
    font-weight:700;
    color: black;
+	padding-bottom: 0.5rem;
+}
+@media screen and (min-width: 700px) {
+	html,
+	body {
+		background: url(/assets/images/image-hero-desktop.jpg);
+		background-color: #fafafa;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	#right_bar {
+		display: flex;
+	}
+	.Menu {
+		display: none;
+	}
+	#content_container {
+		margin-top: -15rem;
+	}
+	.BigText {
+		font-size: 28px;
+	}
+	.BackProjectBox {
+		padding: 20px 35px;
+		width: auto;
+		max-width: 70%;
+	}
+	#bookmark_text {
+		display: block;
+		padding: 20px 30px 20px 10px;
+	}
+	#fund_status {
+		flex-direction: row;
+		text-align: start;
+		align-items: normal;
+	}
+	.StatusBox:nth-child(1) {
+		padding-left: 0;
+	}
+	.StatusBox {
+		border-bottom: none;
+		border-right: 1px solid;
+		width: calc(100% / 3);
+		padding-left: 2.5rem;
+	}
+	.StatusBigText {
+		font-size: 2rem;
+	}
+	#about_header {
+		font-size: 1.5rem;
+		padding-bottom: 2rem;
+	}
+	.pledge-box-header {
+		flex-direction: row;
+		padding-bottom: 1rem;
+	}
+	.pledge-box-footer {
+		flex-direction: row;
+	}
+	.pledgeName {
+		font-size: 1.2rem;
+	}
+}
+@media screen and (min-width: 1025px) {
+	#nav_bar {
+		padding: 30px 20px 0;
+	}
+	#content_container {
+		margin-top: -10rem;
+		width: 100%;
+	}
+}
+@media screen and (min-width: 1440px) {
+	#content_container {
+		margin-top: 0rem;
+		max-width: 800px;
+	}
 }
 
 
