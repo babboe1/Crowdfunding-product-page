@@ -21,7 +21,8 @@
 			}
 		</style>
 	</head>
-	<body>
+   <div id="backdrop" class="" ></div>
+	<body class="">
 		<div id="parent_container">
 			<div id="nav_bar">
 				<div id="left_bar">
@@ -32,7 +33,12 @@
 					<p class="NavText">Discover</p>
 					<p class="NavText">Get Started</p>
 				</div>
-            <div class="Menu"><img src="/assets/images/icon-hamburger.svg" alt=""></div>
+				<div class="Menu">
+					<img src="/assets/images/icon-hamburger.svg" alt="" />
+				</div>
+				<div class="CloseMenu">
+					<img src="/assets/images/icon-close-menu.svg" alt="" />
+				</div>
 			</div>
 			<div id="content_container">
 				<div id="top_icon">
@@ -68,7 +74,7 @@
 							<p class="StatusBigText">5,007</p>
 							<p>total backers</p>
 						</div>
-						<div class="StatusBox" style="border:none">
+						<div class="StatusBox" style="border: none">
 							<p class="StatusBigText">56</p>
 							<p>days left</p>
 						</div>
@@ -95,7 +101,7 @@
 							</p>
 						</div>
 						<div>
-							<p style="padding-top:2rem">
+							<p style="padding-top: 2rem">
 								Featuring artisan craftsmanship, the simplicity of
 								design creates extra desk space below your computer to
 								allow notepads, pens, and USB sticks to be stored under
@@ -119,7 +125,7 @@
 							<div class="">
 								<p><span class="StatusBigText">101</span> left</p>
 							</div>
-							<div class="BackProjectBox "><p>Select Reward</p></div>
+							<div class="BackProjectBox"><p>Select Reward</p></div>
 						</div>
 					</div>
 					<div class="PledgeBox">
@@ -138,12 +144,14 @@
 							<div class="">
 								<p><span class="StatusBigText">64</span> left</p>
 							</div>
-							<div class="BackProjectBox "><p>Select Reward</p></div>
+							<div class="BackProjectBox"><p>Select Reward</p></div>
 						</div>
 					</div>
 					<div class="PledgeBox" style="opacity: 0.3">
 						<div class="pledge-box-header">
-							<div class="pledgeName"><p>Mahogany Special Edition</p></div>
+							<div class="pledgeName">
+								<p>Mahogany Special Edition</p>
+							</div>
 							<div class="PledgeAmount"><p>Pledge $200 or more</p></div>
 						</div>
 						<div class="pledge-box-text">
@@ -157,7 +165,12 @@
 							<div class="">
 								<p><span class="StatusBigText">0</span> left</p>
 							</div>
-							<div class="BackProjectBox" style="background-color:hsl(0, 0%, 48%)">Out of Stock</div>
+							<div
+								class="BackProjectBox"
+								style="background-color: hsl(0, 0%, 48%)"
+							>
+								Out of Stock
+							</div>
 						</div>
 					</div>
 				</div>
@@ -167,21 +180,24 @@
 				<div id="menu_modal">
 					<div><p>About</p></div>
 					<div><p>Discover</p></div>
-				<div><p>Get Started</p></div>
-			</div>
-			<div class="Modal" id="gratitude">
-				<div><img src="/assets/images/icon-check.svg" alt="" /></div>
-				<div><p>Thanks for your support!</p></div>
-				<div>
-					<p>
-						Your pledge brings us one step closer to sharing Mastercraft
-						Bamboo Monitor Riser worldwide. You will get an email once our
-						campaign is completed. Got it!
-					</p>
+					<div style="border:none"><p>Get Started</p></div>
 				</div>
-				<div>Got it!</div>
 			</div>
-			<div></div>
+			<div class="Modal">
+				<div id="gratitude">
+					<div><img src="/assets/images/icon-check.svg" alt="" /></div>
+					<div><p>Thanks for your support!</p></div>
+					<div>
+						<p>
+							Your pledge brings us one step closer to sharing
+							Mastercraft Bamboo Monitor Riser worldwide. You will get an
+							email once our campaign is completed. Got it!
+						</p>
+					</div>
+					<div>Got it!</div>
+				</div>
+			</div>
+			<div class="Modal"></div>
 		</div>
 
 		<div class="attribution">
