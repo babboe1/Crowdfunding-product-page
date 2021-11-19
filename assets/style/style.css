@@ -14,9 +14,9 @@ body {
 	padding: 0;
 	margin: 0;
 }
-.StopScroll{
-   height: 100%;
-   overflow: hidden;
+.StopScroll {
+	height: 100%;
+	overflow: hidden;
 }
 #parent_container {
 	margin: auto;
@@ -84,7 +84,7 @@ body {
 	font-weight: 700;
 	font-size: 14px;
 	width: 80%;
-   max-width:150px;
+	max-width: 150px;
 }
 #bookmark_icon {
 	border-radius: 40px;
@@ -185,7 +185,7 @@ progress[value]::-moz-progress-bar {
 	height: 100vh;
 	top: 0;
 	left: 0;
-	background: rgba(0, 0, 0, 0.75);
+	background: rgba(0, 0, 0, 0.6);
 	z-index: 10;
 	pointer-events: none;
 	display: none;
@@ -195,8 +195,9 @@ progress[value]::-moz-progress-bar {
 	pointer-events: all;
 }
 /* modal-styles */
-.Menu.hidden, .CloseMenu.hidden{
-   display: none;
+.Menu.hidden,
+.CloseMenu.hidden {
+	display: none;
 }
 .Modal {
 	position: fixed;
@@ -204,7 +205,7 @@ progress[value]::-moz-progress-bar {
 	background: white;
 	border-radius: 10px;
 	width: 80%;
-   max-width:500px;
+	max-width: 500px;
 	top: 10vh;
 	left: 10%;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
@@ -214,12 +215,12 @@ progress[value]::-moz-progress-bar {
 	display: block;
 	animation: fade-slide-in 0.3s ease-out forwards;
 }
-#menu_modal div{
-   border-bottom: 1px solid #dbdbdb;
-   font-size: 1rem;
-   font-weight: bold;
-   color: black;
-   padding: 1.5rem;
+#menu_modal div {
+	border-bottom: 1px solid #dbdbdb;
+	font-size: 1rem;
+	font-weight: bold;
+	color: black;
+	padding: 1.5rem;
 }
 
 @media screen and (min-width: 700px) {
@@ -236,12 +237,12 @@ progress[value]::-moz-progress-bar {
 	.Menu {
 		display: none;
 	}
-   .CloseMenu{
-      display: none;
-   }
-   #menu_modal{
-      display: none;
-   }
+	.CloseMenu {
+		display: none;
+	}
+	#menu_modal {
+		display: none;
+	}
 	#content_container {
 		margin-top: -15rem;
 	}
@@ -288,6 +289,16 @@ progress[value]::-moz-progress-bar {
 	.pledgeName {
 		font-size: 1.2rem;
 	}
+}
+#gratitude {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+#gratitude div {
+	padding: 1rem;
 }
 @media screen and (min-width: 1025px) {
 	#nav_bar {
