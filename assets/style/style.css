@@ -78,12 +78,13 @@ body {
 }
 .BackProjectBox {
 	border-radius: 40px;
-	padding: 22px 16px;
+	padding: 20px 12px;
 	background-color: #39b5ab;
 	color: #fff;
 	font-weight: 700;
 	font-size: 14px;
-	width: 70%;
+	width: 80%;
+   max-width:150px;
 }
 #bookmark_icon {
 	border-radius: 40px;
@@ -220,6 +221,7 @@ progress[value]::-moz-progress-bar {
    color: black;
    padding: 1.5rem;
 }
+
 @media screen and (min-width: 700px) {
 	html,
 	body {
