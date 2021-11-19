@@ -14,6 +14,10 @@ body {
 	padding: 0;
 	margin: 0;
 }
+.StopScroll{
+   height: 100%;
+   overflow: hidden;
+}
 #parent_container {
 	margin: auto;
 	max-width: 80rem;
