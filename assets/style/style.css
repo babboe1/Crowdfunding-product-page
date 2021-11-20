@@ -7,6 +7,7 @@ body {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	font-family: 'Commissioner', sans-serif;
+	font-size: 14px;
 	color: #848484;
 }
 * {
@@ -51,7 +52,7 @@ body {
 .MajorContent {
 	background-color: #ffffff;
 	border: 1px solid #f5f5f5;
-	padding: 3rem;
+	padding: 1rem;
 	margin-bottom: 1.5rem;
 	border-radius: 0.5rem;
 }
@@ -78,13 +79,24 @@ body {
 }
 .BackProjectBox {
 	border-radius: 40px;
-	padding: 20px 12px;
+	padding: 20px 0;
 	background-color: #39b5ab;
 	color: #fff;
 	font-weight: 700;
 	font-size: 14px;
 	width: 80%;
+	max-width: 250px;
+	text-align: center;
+}
+.RewardBox {
+	border-radius: 40px;
+	padding: 20px 0;
+	background-color: #39b5ab;
+	color: #fff;
+	font-weight: 700;
+	font-size: 14px;
 	max-width: 150px;
+	text-align: center;
 }
 #bookmark_icon {
 	border-radius: 40px;
@@ -109,7 +121,7 @@ body {
 	padding: 0.5rem 0;
 }
 .StatusBigText {
-	font-size: 1.5rem;
+	font-size: 2rem;
 	font-weight: 700;
 	color: black;
 	padding-bottom: 0.5rem;
@@ -157,24 +169,27 @@ progress[value]::-moz-progress-bar {
 	margin-bottom: 1.5rem;
 	padding: 2rem;
 }
-.pledge-box-header {
+.PledgeBoxHeader {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	padding-bottom: 2rem;
 }
-.pledge-box-footer {
+.PledgeBoxFooter {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	padding-top: 2rem;
+}
+.PledgeFooter {
+	padding-bottom: 2rem;
 }
 .PledgeAmount {
 	color: #39b5ab;
 	font-weight: bold;
 }
 .pledgeName {
-	font-size: 1rem;
+	font-size: 16px;
 	font-weight: 700;
 	color: black;
 	padding-bottom: 0.5rem;
@@ -230,6 +245,7 @@ progress[value]::-moz-progress-bar {
 		background-color: #fafafa;
 		background-size: 100%;
 		background-repeat: no-repeat;
+		font-size: 16px;
 	}
 	#right_bar {
 		display: flex;
@@ -249,10 +265,16 @@ progress[value]::-moz-progress-bar {
 	.BigText {
 		font-size: 28px;
 	}
-	.BackProjectBox {
-		padding: 20px 35px;
-		width: auto;
-		max-width: 70%;
+	.MajorContent {
+		padding: 3rem;
+	}
+   .BackProjectBox{
+      font-size: 1.2rem;
+   }
+	.RewardBox {
+		padding: 25px 0;
+		width: 100%;
+		max-width: 200px;
 	}
 	#bookmark_text {
 		display: block;
@@ -279,11 +301,11 @@ progress[value]::-moz-progress-bar {
 		font-size: 1.5rem;
 		padding-bottom: 2rem;
 	}
-	.pledge-box-header {
+	.PledgeBoxHeader {
 		flex-direction: row;
 		padding-bottom: 1rem;
 	}
-	.pledge-box-footer {
+	.PledgeBoxFooter {
 		flex-direction: row;
 	}
 	.pledgeName {
