@@ -327,23 +327,18 @@ progress[value]::-moz-progress-bar {
 		font-size: 1.2rem;
 	}
 }
-#gratitude {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	padding-bottom: 2rem;
-}
-#gratitude div {
-	padding: 1rem;
-}
-@media screen and (min-width: 1025px) {
+
+@media screen and (min-width: 1024px) {
 	#nav_bar {
 		padding: 30px 20px 0;
 	}
 	#content_container {
 		margin-top: -10rem;
 		width: 100%;
+	}
+	.Modal {
+		top: 30vh;
+      width: 100%;
 	}
 }
 @media screen and (min-width: 1440px) {
