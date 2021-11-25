@@ -237,6 +237,21 @@ progress[value]::-moz-progress-bar {
 	color: black;
 	padding: 1.5rem;
 }
+#gratitude {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+#gratitude div {
+	padding: 1rem;
+}
+#close_modal{
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem 0;
+}
 
 @media screen and (min-width: 700px) {
 	html,
@@ -268,9 +283,9 @@ progress[value]::-moz-progress-bar {
 	.MajorContent {
 		padding: 3rem;
 	}
-   .BackProjectBox{
-      font-size: 1.2rem;
-   }
+	.BackProjectBox {
+		font-size: 1.2rem;
+	}
 	.RewardBox {
 		padding: 25px 0;
 		width: 100%;
