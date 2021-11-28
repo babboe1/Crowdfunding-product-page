@@ -163,12 +163,20 @@ progress[value]::-moz-progress-bar {
 	font-weight: 700;
 	color: black;
 	padding-bottom: 1rem;
+   line-height: 20px;
 }
 .PledgeBox {
 	border: 1px solid #dbdbdb;
 	border-radius: 0.5rem;
 	margin-bottom: 1.5rem;
 	padding: 2rem;
+}
+.Checkbox{
+   cursor: pointer;
+}
+.PledgeContainer{
+   display: flex;
+   flex-direction: row;
 }
 .PledgeBoxHeader {
 	display: flex;
@@ -345,7 +353,12 @@ progress[value]::-moz-progress-bar {
 }
 @media screen and (min-width: 1440px) {
 	#content_container {
-		margin-top: 0rem;
+		margin-top: -6rem;
 		max-width: 800px;
 	}
+}
+@media screen and (min-width:1600px){
+   #content_container{
+   margin-top: 2rem;
+   }
 }
