@@ -174,9 +174,24 @@ progress[value]::-moz-progress-bar {
 .Checkbox{
    cursor: pointer;
 }
-.PledgeContainer{
-   display: flex;
-   flex-direction: row;
+input[type='radio'] {
+	appearance: none;
+	-webkit-appearance: none;
+	font: inherit;
+	color: currentColor;
+	width: 2em;
+	height: 2em;
+	border: 0.15em solid currentColor;
+	border-radius: 50%;
+	display: grid;
+	place-content: center;
+}
+.form-control + .form-control {
+	margin-top: 1em;
+}
+.PledgeContainer {
+	display: flex;
+	flex-direction: row;
 }
 .PledgeBoxHeader {
 	display: flex;
