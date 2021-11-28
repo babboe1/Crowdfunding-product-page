@@ -95,7 +95,7 @@ body {
 	color: #fff;
 	font-weight: 700;
 	font-size: 14px;
-   min-width:130px;
+	min-width: 130px;
 	max-width: 150px;
 	text-align: center;
 }
@@ -163,7 +163,7 @@ progress[value]::-moz-progress-bar {
 	font-weight: 700;
 	color: black;
 	padding-bottom: 1rem;
-   line-height: 20px;
+	line-height: 20px;
 }
 .PledgeBox {
 	border: 1px solid #dbdbdb;
@@ -171,8 +171,9 @@ progress[value]::-moz-progress-bar {
 	margin-bottom: 1.5rem;
 	padding: 2rem;
 }
-.Checkbox{
-   cursor: pointer;
+.Checkbox {
+	cursor: pointer;
+	margin: 0.5em 1em 1em 0;
 }
 input[type='radio'] {
 	appearance: none;
@@ -272,10 +273,10 @@ input[type='radio'] {
 #gratitude div {
 	padding: 1rem;
 }
-#close_modal{
-   display: flex;
-   justify-content: space-between;
-   padding: 1rem 0;
+#close_modal {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 0;
 }
 
 @media screen and (min-width: 700px) {
@@ -341,9 +342,16 @@ input[type='radio'] {
 		font-size: 1.5rem;
 		padding-bottom: 2rem;
 	}
+	.Checkbox {
+		margin-top: -5px;
+	}
+	.PledgeContainer {
+		align-items: center;
+	}
 	.PledgeBoxHeader {
 		flex-direction: row;
 		padding-bottom: 1rem;
+		width: 100%;
 	}
 	.PledgeBoxFooter {
 		flex-direction: row;
@@ -363,7 +371,7 @@ input[type='radio'] {
 	}
 	.Modal {
 		top: 30vh;
-      width: 100%;
+		width: 100%;
 	}
 }
 @media screen and (min-width: 1440px) {
@@ -372,8 +380,8 @@ input[type='radio'] {
 		max-width: 800px;
 	}
 }
-@media screen and (min-width:1600px){
-   #content_container{
-   margin-top: 2rem;
-   }
+@media screen and (min-width: 1600px) {
+	#content_container {
+		margin-top: 2rem;
+	}
 }
