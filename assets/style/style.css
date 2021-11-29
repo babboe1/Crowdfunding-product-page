@@ -177,7 +177,6 @@ progress[value]::-moz-progress-bar {
 }
 input[type='radio'] {
 	appearance: none;
-	-webkit-appearance: none;
 	font: inherit;
 	color: currentColor;
 	width: 2em;
@@ -186,6 +185,18 @@ input[type='radio'] {
 	border-radius: 50%;
 	display: grid;
 	place-content: center;
+}
+input[type='radio']::before {
+	content: '';
+	width: 0.65em;
+	height: 0.65em;
+	border-radius: 50%;
+	transform: scale(0);
+	transition: 120ms transform ease-in-out;
+	box-shadow: inset 1em 1em var(--form-control-color);
+}
+input[type='radio']:checked::before {
+	transform: scale(1);
 }
 .form-control + .form-control {
 	margin-top: 1em;
