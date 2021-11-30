@@ -176,7 +176,7 @@ progress[value]::-moz-progress-bar {
 	margin: 0.5em 1em 1em 0;
 }
 input[type='radio'] {
-	appearance: none;
+   appearance: none;
    -webkit-appearance: none;
    background: #fff;
    margin: 0;
