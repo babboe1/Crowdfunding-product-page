@@ -190,6 +190,7 @@ input[type='radio'] {
 	place-content: center;
 }
 input[type='radio']::before {
+   /* display: none; */
 	content: '';
 	width: 1em;
 	height: 1em;
@@ -200,6 +201,7 @@ input[type='radio']::before {
 }
 input[type='radio']:checked::before {
 	transform: scale(1);
+   background-color: #39b5ab;
 }
 .form-control + .form-control {
 	margin-top: 1em;
@@ -222,6 +224,9 @@ input[type='radio']:checked::before {
 }
 .PledgeFooter {
 	padding-bottom: 2rem;
+}
+.FooterDesktop{
+   display: none;
 }
 .PledgeAmount {
 	color: #39b5ab;
@@ -291,6 +296,9 @@ input[type='radio']:checked::before {
 	display: flex;
 	justify-content: space-between;
 	padding: 1rem 0;
+}
+#project_detail{
+   font-size: 16px;
 }
 
 @media screen and (min-width: 700px) {
@@ -366,6 +374,7 @@ input[type='radio']:checked::before {
 		flex-direction: row;
 		padding-bottom: 1rem;
 		width: 100%;
+      align-items: baseline;
 	}
 	.PledgeBoxFooter {
 		flex-direction: row;
@@ -394,6 +403,7 @@ input[type='radio']:checked::before {
 		top: 30vh;
 		width: 100%;
 	}
+
 }
 @media screen and (min-width: 1440px) {
 	#content_container {
