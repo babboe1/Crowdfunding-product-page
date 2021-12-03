@@ -370,9 +370,16 @@ input[type='radio']:checked::before {
 	.PledgeBoxFooter {
 		flex-direction: row;
 	}
-	.pledgeName {
-		font-size: 1.2rem;
-	}
+   .FooterMobile{
+      display: none;
+   }
+   .FooterDesktop{
+      display: block;
+      padding-bottom: 0;
+   }
+   .ModalText{
+      font-size: 1.2rem;
+   }
 }
 
 @media screen and (min-width: 1024px) {
