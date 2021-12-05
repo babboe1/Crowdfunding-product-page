@@ -300,6 +300,25 @@ input[type='radio']:checked::before {
 #project_detail{
    font-size: 16px;
 }
+.HeaderContainer {
+	display: flex;
+	flex-direction: column;
+}
+.PledgeBoxBForm {
+	border-top: 1px solid #dbdbdb;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+}
+.PledgeBoxModal {
+	border: 1px solid #dbdbdb;
+	border-radius: 0.5rem;
+	margin-bottom: 1.5rem;
+}
+.PledgeModalTop {
+	padding: 2rem 2rem 0;
+}
 
 @media screen and (min-width: 700px) {
 	html,
