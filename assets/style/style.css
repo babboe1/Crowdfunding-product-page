@@ -401,10 +401,10 @@ input[type='radio']:checked::before {
    .FooterMobile{
       display: none;
    }
-   .FooterDesktop{
-      display: block;
-      padding-bottom: 0;
-   }
+	.FooterDesktop {
+		display: block;
+		padding-bottom: 0;
+	}
    .ModalText{
       font-size: 1.2rem;
    }
