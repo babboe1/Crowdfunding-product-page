@@ -176,10 +176,10 @@ progress[value]::-moz-progress-bar {
 	margin: 0.5em 1em 1em 0;
 }
 input[type='radio'] {
-   appearance: none;
-   -webkit-appearance: none;
-   background: #fff;
-   margin: 0;
+	appearance: none;
+	-webkit-appearance: none;
+	background: #fff;
+	margin: 0;
 	font: inherit;
 	color: currentColor;
 	width: 1.5em;
@@ -190,7 +190,7 @@ input[type='radio'] {
 	place-content: center;
 }
 input[type='radio']::before {
-   /* display: none; */
+	/* display: none; */
 	content: '';
 	width: 1em;
 	height: 1em;
@@ -201,7 +201,7 @@ input[type='radio']::before {
 }
 input[type='radio']:checked::before {
 	transform: scale(1);
-   background-color: #39b5ab;
+	background-color: #39b5ab;
 }
 .form-control + .form-control {
 	margin-top: 1em;
@@ -225,8 +225,8 @@ input[type='radio']:checked::before {
 .PledgeFooter {
 	padding-bottom: 2rem;
 }
-.FooterDesktop{
-   display: none;
+.FooterDesktop {
+	display: none;
 }
 .PledgeAmount {
 	color: #39b5ab;
@@ -297,8 +297,8 @@ input[type='radio']:checked::before {
 	justify-content: space-between;
 	padding: 1rem 0;
 }
-#project_detail{
-   font-size: 16px;
+#project_detail {
+	font-size: 16px;
 }
 .HeaderContainer {
 	display: flex;
@@ -393,21 +393,21 @@ input[type='radio']:checked::before {
 		flex-direction: row;
 		padding-bottom: 1rem;
 		width: 100%;
-      align-items: baseline;
+		align-items: baseline;
 	}
 	.PledgeBoxFooter {
 		flex-direction: row;
 	}
-   .FooterMobile{
-      display: none;
-   }
+	.FooterMobile {
+		display: none;
+	}
 	.FooterDesktop {
 		display: block;
 		padding-bottom: 0;
 	}
-   .ModalText{
-      font-size: 1.2rem;
-   }
+	.ModalText {
+		font-size: 1.2rem;
+	}
 }
 
 @media screen and (min-width: 1024px) {
@@ -422,7 +422,6 @@ input[type='radio']:checked::before {
 		top: 30vh;
 		width: 100%;
 	}
-
 }
 @media screen and (min-width: 1440px) {
 	#content_container {
