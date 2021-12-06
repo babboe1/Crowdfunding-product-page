@@ -353,8 +353,9 @@ input[type='radio']:checked::before {
 	background-color: #39b5ab;
 	color: #fff;
 	font-weight: 700;
-   width:50%;
-   padding-top: 1rem;;
+	width: 50%;
+	padding-top: 1rem;
+	min-width: 130px;
 	max-width: 180px;
 }
 @media screen and (min-width: 700px) {
