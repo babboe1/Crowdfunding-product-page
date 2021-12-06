@@ -446,6 +446,29 @@ input[type='radio']:checked::before {
 	.ModalText {
 		font-size: 1.2rem;
 	}
+	/* modal styles */
+
+	.HeaderContainer {
+		flex-direction: row;
+	}
+
+	.PledgeBoxForm {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1rem 2rem;
+	}
+	.PledgeFormBottom {
+		padding-top: unset;
+	}
+	.PledgeInputBox {
+		min-width: 130px;
+		max-width: 150px;
+	}
+	.PledgeFormText {
+		min-width: 160px;
+		max-width: 180px;
+	}
 }
 
 @media screen and (min-width: 1024px) {
