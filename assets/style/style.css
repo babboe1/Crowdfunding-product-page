@@ -88,6 +88,12 @@ body {
 	max-width: 250px;
 	text-align: center;
 }
+.BackProjectBox:hover,
+.RewardBox:hover,
+.PledgeFormText:hover {
+	background-color: #157a74;
+	cursor: pointer;
+}
 .RewardBox {
 	border-radius: 40px;
 	padding: 20px 0;
@@ -201,6 +207,9 @@ input[type='radio']::before {
 input[type='radio']:checked::before {
 	transform: scale(1);
 	background-color: #39b5ab;
+}
+input[type='radio']:hover {
+	border-color: #39b5ab;
 }
 .form-control + .form-control {
 	margin-top: 1em;
@@ -327,8 +336,8 @@ input[type='radio']:checked::before {
 }
 .PledgeFormBottom {
 	display: flex;
-   justify-content: space-between;
-   padding-top: 1.5rem;
+	justify-content: space-between;
+	padding-top: 1.5rem;
 }
 .PledgeInputBox {
 	border: 1px solid #dbdbdb;
@@ -336,8 +345,14 @@ input[type='radio']:checked::before {
 	border-radius: 40px;
 	display: flex;
 	align-items: baseline;
-   width:45%;
-   max-width: 150px;
+	width: 45%;
+	min-width: 100px;
+	max-width: 150px;
+	margin-right: 1rem;
+}
+.PledgeInputBox:hover {
+	border-color: #39b5ab;
+	cursor: pointer;
 }
 .PledgeInput {
 	border: none;
