@@ -319,7 +319,38 @@ input[type='radio']:checked::before {
 .PledgeModalTop {
 	padding: 2rem 2rem 0;
 }
-
+.PledgeFormBottom {
+	display: flex;
+   justify-content: space-between;
+   padding-top: 1.5rem;
+}
+.PledgeInputBox {
+	border: 1px solid #dbdbdb;
+	padding: 1rem;
+	border-radius: 40px;
+	display: flex;
+	align-items: baseline;
+   width:45%;
+   max-width: 150px;
+}
+.PledgeInput {
+	border: none;
+	outline: none;
+	padding-left: 1rem;
+	color: black;
+	font-weight: 700;
+	font-size: 18px;
+	width: 5rem;
+}
+.PledgeFormText {
+	border-radius: 40px;
+	background-color: #39b5ab;
+	color: #fff;
+	font-weight: 700;
+   width:50%;
+   padding-top: 1rem;;
+	max-width: 180px;
+}
 @media screen and (min-width: 700px) {
 	html,
 	body {
