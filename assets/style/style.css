@@ -237,6 +237,10 @@ input[type='radio']:checked::before {
 	color: black;
 	padding-bottom: 0.5rem;
 }
+.pledgeName:hover {
+	color: #39b5ab;
+	cursor: pointer;
+}
 #backdrop {
 	position: fixed;
 	width: 100%;
