@@ -7,7 +7,7 @@ const MENU_MODAL = document.getElementById("menu_modal").parentElement;
 const BACK_PROJECT_BTN = document.querySelector('.BackProjectBox');
 const PROJECT_DETAILS_BTN = document.getElementById('project_detail').parentElement;
 const CLOSE_MODAL_BTN = document.getElementById("close_modal").lastElementChild;
-
+const INPUTS = document.querySelectorAll('input');  
 
 
 const BackDrop = () => {
