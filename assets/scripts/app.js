@@ -25,3 +25,7 @@ const MenuBtnHandler = () => {
 	MENU.classList.toggle('hidden');
 	MENU_MODAL.classList.toggle('visible');
 };
+
+const CloseMenuBtnHandler = () => {
+	MenuBtnHandler();
+};
