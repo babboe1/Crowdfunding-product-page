@@ -33,3 +33,12 @@ const MenuBtnHandler = () => {
 const CloseMenuBtnHandler = () => {
 	MenuBtnHandler();
 };
+
+const BackProjectHandler = () => {
+	BackDrop();
+	PROJECT_DETAILS_BTN.classList.toggle('visible');
+};
+
+const CloseModalBtnHandler = () => {
+	BackProjectHandler();
+};
