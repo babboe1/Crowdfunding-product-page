@@ -8,3 +8,8 @@ const BACK_PROJECT_BTN = document.querySelector('.BackProjectBox');
 const PROJECT_DETAILS_BTN = document.getElementById('project_detail').parentElement;
 const CLOSE_MODAL_BTN = document.getElementById("close_modal").lastElementChild;
 
+
+
+const BackDrop = () => {
+	BACKDROP.classList.toggle('visible');
+};
