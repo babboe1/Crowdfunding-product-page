@@ -14,6 +14,10 @@ const BackDrop = () => {
 	BACKDROP.classList.toggle('visible');
 };
 
+const BackDropHandler = () => {
+	// MenuBtnHandler();
+};
+
 const StopScroll = () => {
 	document.body.classList.toggle('StopScroll');
 };
