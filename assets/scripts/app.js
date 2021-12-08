@@ -13,3 +13,7 @@ const CLOSE_MODAL_BTN = document.getElementById("close_modal").lastElementChild;
 const BackDrop = () => {
 	BACKDROP.classList.toggle('visible');
 };
+
+const StopScroll = () => {
+	document.body.classList.toggle('StopScroll');
+};
