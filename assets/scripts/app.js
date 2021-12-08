@@ -42,3 +42,10 @@ const BackProjectHandler = () => {
 const CloseModalBtnHandler = () => {
 	BackProjectHandler();
 };
+
+
+BACKDROP.addEventListener('click', BackDropHandler);
+MENU_BTN.addEventListener('click', MenuBtnHandler);
+CLOSE_MENU_BTN.addEventListener('click', CloseMenuBtnHandler);
+BACK_PROJECT_BTN.addEventListener('click', BackProjectHandler);
+CLOSE_MODAL_BTN.addEventListener('click', CloseModalBtnHandler);
