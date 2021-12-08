@@ -17,3 +17,11 @@ const BackDrop = () => {
 const StopScroll = () => {
 	document.body.classList.toggle('StopScroll');
 };
+
+const MenuBtnHandler = () => {
+	BackDrop();
+	StopScroll();
+	CLOSE_MENU.classList.toggle('hidden');
+	MENU.classList.toggle('hidden');
+	MENU_MODAL.classList.toggle('visible');
+};
