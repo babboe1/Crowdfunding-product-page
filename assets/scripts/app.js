@@ -5,10 +5,20 @@ const CLOSE_MENU = document.querySelector('.CloseMenu');
 const CLOSE_MENU_BTN = document.querySelector('.CloseMenu').firstElementChild;
 const MENU_MODAL = document.getElementById('menu_modal').parentElement;
 const BACK_PROJECT_BTN = document.querySelector('.BackProjectBox');
-const PROJECT_DETAILS_BTN = document.getElementById('project_detail').parentElement;
-const CLOSE_MODAL_BTN = document.getElementById("close_modal").lastElementChild;
-const INPUTS = document.querySelectorAll('input');  
-
+const PROJECT_DETAILS_BTN =
+	document.getElementById('project_detail').parentElement;
+const CLOSE_MODAL_BTN = document.getElementById('close_modal').lastElementChild;
+const SELECT_REWARD = document.querySelectorAll('.RewardBox');
+const INPUTS = document.querySelectorAll('input');
+const PLEDGE_FORM = document.querySelectorAll('.PledgeBoxForm');
+const INPUT1 = INPUTS[0];
+const INPUT2 = INPUTS[2];
+const INPUT3 = INPUTS[4];
+const FORM1 = PLEDGE_FORM[0];
+const FORM2 = PLEDGE_FORM[1];
+const FORM3 = PLEDGE_FORM[2];
+const SELECT_REWARD1 = SELECT_REWARD[0];
+const SELECT_REWARD2 = SELECT_REWARD[1];
 
 const BackDrop = () => {
 	BACKDROP.classList.toggle('visible');
