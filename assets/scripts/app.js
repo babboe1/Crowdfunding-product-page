@@ -89,6 +89,20 @@ const CloseModalBtnHandler = () => {
 	BackProjectHandler();
 };
 
+SELECT_REWARD1.onclick = () => {
+	BackProjectHandler();
+	INPUT2.checked = 'checked';
+	InputHandler();
+
+	window.location.href = '#radio_1';
+};
+
+SELECT_REWARD2.onclick = () => {
+	BackProjectHandler();
+	INPUT3.checked = 'checked';
+	InputHandler();
+	window.location.href = '#radio_2';
+};
 
 BACKDROP.addEventListener('click', BackDropHandler);
 MENU_BTN.addEventListener('click', MenuBtnHandler);
