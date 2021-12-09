@@ -34,6 +34,52 @@ const CloseMenuBtnHandler = () => {
 	MenuBtnHandler();
 };
 
+const BorderColorFunction = () => {
+	if (FORM2.classList.contains('hidden') && FORM3.classList.contains('hidden')) {
+		document.querySelectorAll('.PledgeBoxModal')[1].style.border =
+			'2px solid #39b5ab';
+	} else if (
+		FORM1.classList.contains('hidden') &&
+		FORM3.classList.contains('hidden')
+	) {
+		document.querySelectorAll('.PledgeBoxModal')[1].style.border =
+			'2px solid #39b5ab';
+	} else if (
+		FORM1.classList.contains('hidden') &&
+		FORM2.classList.contains('hidden')
+	) {
+		document.querySelectorAll('.PledgeBoxModal')[1].style.border =
+			'2px solid #39b5ab';
+	} else {
+		document.querySelectorAll('.PledgeBoxModal')[1].style.border =
+			'1px solid #dbdbdb';
+	}
+};
+
+const InputHandler = () => {
+	if (INPUT1.checked) {
+		FORM1.classList.remove('hidden');
+		FORM2.classList.add('hidden');
+		FORM3.classList.add('hidden');
+		BorderColorFunction();
+	} else if (INPUT2.checked) {
+		FORM1.classList.add('hidden');
+		FORM2.classList.remove('hidden');
+		FORM3.classList.add('hidden');
+		BorderColorFunction();
+	} else if (INPUT3.checked) {
+		FORM1.classList.add('hidden');
+		FORM2.classList.add('hidden');
+		FORM3.classList.remove('hidden');
+		BorderColorFunction();
+	} else {
+		FORM1.classList.add('hidden');
+		FORM2.classList.add('hidden');
+		FORM3.classList.add('hidden');
+		BorderColorFunction();
+	}
+};
+
 const BackProjectHandler = () => {
 	BackDrop();
 	PROJECT_DETAILS_BTN.classList.toggle('visible');
