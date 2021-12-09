@@ -45,7 +45,10 @@ const CloseMenuBtnHandler = () => {
 };
 
 const BorderColorFunction = () => {
-	if (FORM2.classList.contains('hidden') && FORM3.classList.contains('hidden')) {
+	if (
+		FORM2.classList.contains('hidden') &&
+		FORM3.classList.contains('hidden')
+	) {
 		document.querySelectorAll('.PledgeBoxModal')[1].style.border =
 			'2px solid #39b5ab';
 	} else if (
