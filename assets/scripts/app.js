@@ -49,3 +49,7 @@ MENU_BTN.addEventListener('click', MenuBtnHandler);
 CLOSE_MENU_BTN.addEventListener('click', CloseMenuBtnHandler);
 BACK_PROJECT_BTN.addEventListener('click', BackProjectHandler);
 CLOSE_MODAL_BTN.addEventListener('click', CloseModalBtnHandler);
+INPUT1.addEventListener('change', InputHandler);
+INPUT2.addEventListener('change', InputHandler);
+INPUT3.addEventListener('change', InputHandler);
+INPUTS[6].addEventListener('change', InputHandler);
