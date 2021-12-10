@@ -77,8 +77,9 @@ const BorderColorFunction = () => {
 		PLEDGE_MODAL2.classList.remove('Borderline');
 		PLEDGE_MODAL3.classList.add('Borderline');
 	} else {
-		document.querySelectorAll('.PledgeBoxModal')[1].style.border =
-			'1px solid #dbdbdb';
+		PLEDGE_MODAL1.classList.remove('Borderline');
+		PLEDGE_MODAL2.classList.remove('Borderline');
+		PLEDGE_MODAL3.classList.remove('Borderline');
 	}
 };
 
