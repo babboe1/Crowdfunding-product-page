@@ -73,8 +73,9 @@ const BorderColorFunction = () => {
 		FORM1.classList.contains('hidden') &&
 		FORM2.classList.contains('hidden')
 	) {
-		document.querySelectorAll('.PledgeBoxModal')[1].style.border =
-			'2px solid #39b5ab';
+		PLEDGE_MODAL1.classList.remove('Borderline');
+		PLEDGE_MODAL2.classList.remove('Borderline');
+		PLEDGE_MODAL3.classList.add('Borderline');
 	} else {
 		document.querySelectorAll('.PledgeBoxModal')[1].style.border =
 			'1px solid #dbdbdb';
