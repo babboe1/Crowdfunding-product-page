@@ -30,12 +30,11 @@ const BackDrop = () => {
 };
 
 const BackDropHandler = () => {
-   if (MENU.click) {
-      MenuBtnHandler();
-   } else if (BACK_PROJECT_BTN || SELECT_REWARD1 || SELECT_REWARD2) {
-      BackProjectHandler();
-   }
-
+	if (MENU.click) {
+		MenuBtnHandler();
+	} else if (BACK_PROJECT_BTN || SELECT_REWARD1 || SELECT_REWARD2) {
+		BackProjectHandler();
+	}
 };
 
 const StopScroll = () => {
@@ -65,9 +64,9 @@ const BorderColorFunction = () => {
 	} else if (
 		FORM1.classList.contains('hidden') &&
 		FORM3.classList.contains('hidden')
-   ) {
+	) {
 		PLEDGE_MODAL1.classList.remove('Borderline');
-      PLEDGE_MODAL2.classList.add('Borderline');
+		PLEDGE_MODAL2.classList.add('Borderline');
 		PLEDGE_MODAL3.classList.remove('Borderline');
 	} else if (
 		FORM1.classList.contains('hidden') &&
