@@ -11,6 +11,7 @@ const CLOSE_MODAL_BTN = document.getElementById('close_modal').lastElementChild;
 const SELECT_REWARD = document.querySelectorAll('.RewardBox');
 const INPUTS = document.querySelectorAll('input');
 const PLEDGE_FORM = document.querySelectorAll('.PledgeBoxForm');
+const PLEDGE_MODAL = document.querySelectorAll('.PledgeBoxModal');
 const INPUT1 = INPUTS[0];
 const INPUT2 = INPUTS[2];
 const INPUT3 = INPUTS[4];
