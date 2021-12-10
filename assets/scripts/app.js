@@ -20,6 +20,9 @@ const FORM2 = PLEDGE_FORM[1];
 const FORM3 = PLEDGE_FORM[2];
 const SELECT_REWARD1 = SELECT_REWARD[0];
 const SELECT_REWARD2 = SELECT_REWARD[1];
+const PLEDGE_MODAL1 = PLEDGE_MODAL[1];
+const PLEDGE_MODAL2 = PLEDGE_MODAL[2];
+const PLEDGE_MODAL3 = PLEDGE_MODAL[3];
 
 const BackDrop = () => {
 	BACKDROP.classList.toggle('visible');
