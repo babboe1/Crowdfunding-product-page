@@ -30,7 +30,12 @@ const BackDrop = () => {
 };
 
 const BackDropHandler = () => {
-	// MenuBtnHandler();
+   if (MENU.click) {
+      MenuBtnHandler();
+   } else if (BACK_PROJECT_BTN || SELECT_REWARD1 || SELECT_REWARD2) {
+      BackProjectHandler();
+   }
+
 };
 
 const StopScroll = () => {
