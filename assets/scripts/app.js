@@ -41,6 +41,15 @@ const StopScroll = () => {
 	document.body.classList.toggle('StopScroll');
 };
 
+const BackDropHandler = () => {
+	BackDrop();
+	document.body.classList.remove('StopScroll');
+	MENU_MODAL.classList.remove('visible');
+	MENU.classList.remove('hidden');
+	CLOSE_MENU.classList.add('hidden');
+	PROJECT_DETAILS_BTN.classList.remove('visible');
+};
+
 const MenuBtnHandler = () => {
 	BackDrop();
 	StopScroll();
