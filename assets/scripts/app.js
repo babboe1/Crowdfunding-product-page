@@ -116,6 +116,14 @@ const CloseModalBtnHandler = () => {
 	BackProjectHandler();
 };
 
+ContinuePledgeHandler = () => {
+	BackDrop();
+	BackProjectHandler();
+	GRATITUDE.classList.toggle('visible');
+	document.body.scrollTop = 0;
+	document.documentElement.scrollTop = 0;
+};
+
 SELECT_REWARD1.onclick = () => {
 	BackProjectHandler();
 	INPUT2.checked = 'checked';
