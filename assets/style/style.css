@@ -375,7 +375,7 @@ input[type='radio']:hover {
 	min-width: 100px;
 	max-width: 180px;
 }
-.Borderline{
+.Borderline {
 	border: 2px solid #39b5ab;
 }
 @media screen and (min-width: 700px) {
