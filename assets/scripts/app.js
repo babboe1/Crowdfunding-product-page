@@ -138,6 +138,11 @@ SELECT_REWARD2.onclick = () => {
 	InputHandler();
 	window.location.href = '#radio_2';
 };
+const ContinuePledge = () => {
+	for (const CONT of CONTINUE_PLEDGE) {
+		CONT.addEventListener('click', ContinuePledgeHandler);
+	}
+};
 
 BACKDROP.addEventListener('click', BackDropHandler);
 MENU_BTN.addEventListener('click', MenuBtnHandler);
