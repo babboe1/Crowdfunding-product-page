@@ -110,6 +110,7 @@ const InputHandler = () => {
 const BackProjectHandler = () => {
 	BackDrop();
 	PROJECT_DETAILS_BTN.classList.toggle('visible');
+	ContinuePledge();
 };
 
 const CloseModalBtnHandler = () => {
