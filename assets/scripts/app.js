@@ -29,14 +29,6 @@ const BackDrop = () => {
 	BACKDROP.classList.toggle('visible');
 };
 
-const BackDropHandler = () => {
-	if (MENU.click) {
-		MenuBtnHandler();
-	} else if (BACK_PROJECT_BTN || SELECT_REWARD1 || SELECT_REWARD2) {
-		BackProjectHandler();
-	}
-};
-
 const StopScroll = () => {
 	document.body.classList.toggle('StopScroll');
 };
