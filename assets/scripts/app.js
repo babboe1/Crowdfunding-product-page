@@ -35,6 +35,16 @@ const StopScroll = () => {
 	document.body.classList.toggle('StopScroll');
 };
 
+const ClearInput = () => {
+	INPUT1.checked = false;
+	INPUT2.checked = false;
+   INPUT3.checked = false;
+   FORM1.classList.add('hidden');
+   FORM2.classList.add('hidden');
+   FORM3.classList.add('hidden');
+	BorderColorFunction();
+};
+
 const BackDropHandler = () => {
 	BackDrop();
 	document.body.classList.remove('StopScroll');
