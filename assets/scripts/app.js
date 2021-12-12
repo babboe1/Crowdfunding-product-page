@@ -147,6 +147,10 @@ const ContinuePledge = () => {
 	}
 };
 
+const OkBtnHandler = () => {
+   BackDropHandler();
+};
+
 BACKDROP.addEventListener('click', BackDropHandler);
 MENU_BTN.addEventListener('click', MenuBtnHandler);
 CLOSE_MENU_BTN.addEventListener('click', CloseMenuBtnHandler);
