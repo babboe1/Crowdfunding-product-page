@@ -160,3 +160,4 @@ INPUT1.addEventListener('change', InputHandler);
 INPUT2.addEventListener('change', InputHandler);
 INPUT3.addEventListener('change', InputHandler);
 INPUTS[6].addEventListener('change', InputHandler);
+OK_BTN.addEventListener('click', OkBtnHandler);
