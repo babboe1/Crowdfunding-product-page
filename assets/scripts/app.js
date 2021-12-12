@@ -143,7 +143,6 @@ SELECT_REWARD1.onclick = () => {
 	BackProjectHandler();
 	INPUT2.checked = 'checked';
 	InputHandler();
-
 	window.location.href = '#radio_1';
 };
 
