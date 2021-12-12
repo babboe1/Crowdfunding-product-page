@@ -38,10 +38,10 @@ const StopScroll = () => {
 const ClearInput = () => {
 	INPUT1.checked = false;
 	INPUT2.checked = false;
-   INPUT3.checked = false;
-   FORM1.classList.add('hidden');
-   FORM2.classList.add('hidden');
-   FORM3.classList.add('hidden');
+	INPUT3.checked = false;
+	FORM1.classList.add('hidden');
+	FORM2.classList.add('hidden');
+	FORM3.classList.add('hidden');
 	BorderColorFunction();
 };
 
@@ -51,9 +51,9 @@ const BackDropHandler = () => {
 	MENU_MODAL.classList.remove('visible');
 	MENU.classList.remove('hidden');
 	CLOSE_MENU.classList.add('hidden');
-   PROJECT_DETAILS_BTN.classList.remove('visible');
-   GRATITUDE.classList.remove('visible');
-   ClearInput();
+	PROJECT_DETAILS_BTN.classList.remove('visible');
+	GRATITUDE.classList.remove('visible');
+	ClearInput();
 };
 
 const MenuBtnHandler = () => {
@@ -159,7 +159,7 @@ const ContinuePledge = () => {
 };
 
 const OkBtnHandler = () => {
-   BackDropHandler();
+	BackDropHandler();
 };
 
 BACKDROP.addEventListener('click', BackDropHandler);
