@@ -14,6 +14,7 @@ const PLEDGE_FORM = document.querySelectorAll('.PledgeBoxForm');
 const PLEDGE_MODAL = document.querySelectorAll('.PledgeBoxModal');
 const CONTINUE_PLEDGE = document.querySelectorAll('.PledgeFormText');
 const GRATITUDE = document.getElementById('gratitude').parentElement;
+const OK_BTN = document.getElementById('gratitude').lastElementChild;
 const INPUT1 = INPUTS[0];
 const INPUT2 = INPUTS[2];
 const INPUT3 = INPUTS[4];
