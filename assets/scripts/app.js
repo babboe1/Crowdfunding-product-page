@@ -172,6 +172,13 @@ const clearInput = () => {
 	}
 };
 
+const UserInput = () => {
+	for (const ursInput of USER_INPUTS) {
+		if (ursInput.value != '') {
+         return ursInput.value;
+      }
+	}
+};
 
 BACKDROP.addEventListener('click', BackDropHandler);
 MENU_BTN.addEventListener('click', MenuBtnHandler);
