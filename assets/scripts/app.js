@@ -166,6 +166,13 @@ const OkBtnHandler = () => {
 	BackDropHandler();
 };
 
+const clearInput = () => {
+	for (const ursInput of USER_INPUTS) {
+		ursInput.value = '';
+	}
+};
+
+
 BACKDROP.addEventListener('click', BackDropHandler);
 MENU_BTN.addEventListener('click', MenuBtnHandler);
 CLOSE_MENU_BTN.addEventListener('click', CloseMenuBtnHandler);
