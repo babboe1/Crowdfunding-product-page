@@ -143,11 +143,12 @@ ContinuePledgeHandler = () => {
    } else if (INPUT3.checked && UserInput() < '75') {
       alert('Minimum Pledge is $75');
    } else {
-	BackDrop();
-	BackProjectHandler();
-	GRATITUDE.classList.toggle('visible');
-	document.body.scrollTop = 0;
-	document.documentElement.scrollTop = 0;
+      BackDrop();
+		BackProjectHandler();
+		GRATITUDE.classList.toggle('visible');
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+   }
 };
 
 SELECT_REWARD1.onclick = () => {
