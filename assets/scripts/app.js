@@ -137,6 +137,11 @@ const CloseModalBtnHandler = () => {
 };
 
 ContinuePledgeHandler = () => {
+   if (INPUT2.checked && UserInput() < '25') {
+      alert('Minimum Pledge is $25');
+   } else if (INPUT3.checked && UserInput() < '75') {
+      alert('Minimum Pledge is $75');
+   } else {
 	BackDrop();
 	BackProjectHandler();
 	GRATITUDE.classList.toggle('visible');
