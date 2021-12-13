@@ -90,7 +90,7 @@ body {
 }
 .BackProjectBox:hover,
 .RewardBox:hover,
-.PledgeFormText:hover {
+button:hover {
 	background-color: #157a74;
 	cursor: pointer;
 }
@@ -367,11 +367,7 @@ input[type='radio']:hover {
 }
 .PledgeFormText {
 	border-radius: 40px;
-	background-color: #39b5ab;
-	color: #fff;
-	font-weight: 700;
 	width: 50%;
-	padding-top: 1rem;
 	min-width: 100px;
 	max-width: 180px;
 }

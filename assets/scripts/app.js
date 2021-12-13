@@ -132,7 +132,7 @@ const BackProjectHandler = () => {
 };
 
 const CloseModalBtnHandler = () => {
-	BackProjectHandler();
+	BackDropHandler();
 };
 
 ContinuePledgeHandler = () => {
