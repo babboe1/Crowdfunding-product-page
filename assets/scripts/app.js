@@ -63,7 +63,7 @@ const BackDropHandler = () => {
 	CLOSE_MENU.classList.add('hidden');
 	PROJECT_DETAILS_BTN.classList.remove('visible');
 	GRATITUDE.classList.remove('visible');
-   ClearInput();
+	ClearInput();
 };
 
 const MenuBtnHandler = () => {
