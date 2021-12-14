@@ -87,7 +87,7 @@ const BorderColorFunction = () => {
 		PLEDGE_MODAL1.classList.remove('Borderline');
 		PLEDGE_MODAL2.classList.remove('Borderline');
 		PLEDGE_MODAL3.classList.remove('Borderline');
-   } else if (
+	} else if (
 		FORM2.classList.contains('hidden') &&
 		FORM3.classList.contains('hidden')
 	) {
