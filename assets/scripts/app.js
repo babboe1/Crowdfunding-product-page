@@ -31,6 +31,8 @@ const SELECT_REWARD2 = SELECT_REWARD[1];
 const PLEDGE_MODAL1 = PLEDGE_MODAL[0];
 const PLEDGE_MODAL2 = PLEDGE_MODAL[1];
 const PLEDGE_MODAL3 = PLEDGE_MODAL[2];
+let backers = 5007;
+let amount = 89914;
 
 const BackDrop = () => {
 	BACKDROP.classList.toggle('visible');
