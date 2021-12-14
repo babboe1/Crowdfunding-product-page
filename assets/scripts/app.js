@@ -108,7 +108,7 @@ const BorderColorFunction = () => {
 		PLEDGE_MODAL1.classList.remove('Borderline');
 		PLEDGE_MODAL2.classList.remove('Borderline');
 		PLEDGE_MODAL3.classList.add('Borderline');
-   }
+	}
 };
 
 const InputHandler = () => {
