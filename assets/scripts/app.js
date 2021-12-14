@@ -157,7 +157,7 @@ ContinuePledgeHandler = () => {
 		GRATITUDE.classList.toggle('visible');
 		document.body.scrollTop = 0;
 		document.documentElement.scrollTop = 0;
-   }
+	}
 };
 
 SELECT_REWARD1.onclick = () => {
