@@ -80,8 +80,8 @@ const CloseMenuBtnHandler = () => {
 
 const BorderColorFunction = () => {
 	if (
-      FORM1.classList.contains('hidden') &&
-      FORM2.classList.contains('hidden') &&
+		FORM1.classList.contains('hidden') &&
+		FORM2.classList.contains('hidden') &&
 		FORM3.classList.contains('hidden')
    ) {
       PLEDGE_MODAL1.classList.remove('Borderline');
