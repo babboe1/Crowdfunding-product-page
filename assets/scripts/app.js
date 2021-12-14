@@ -53,6 +53,9 @@ const ClearInput = () => {
 };
 
 const BackDropHandler = () => {
+	if (GRATITUDE.classList.contains('visible')) {
+		UpdateUi();
+	}
 	BackDrop();
 	document.body.classList.remove('StopScroll');
 	MENU_MODAL.classList.remove('visible');
