@@ -132,8 +132,8 @@ const InputHandler = () => {
 		FORM2.classList.add('hidden');
 		FORM3.classList.add('hidden');
 		BorderColorFunction();
-   }
-   clearInput();
+	}
+	clearInput();
 };
 
 const BackProjectHandler = () => {
