@@ -242,3 +242,4 @@ INPUT2.addEventListener('change', InputHandler);
 INPUT3.addEventListener('change', InputHandler);
 INPUTS[6].addEventListener('change', InputHandler);
 OK_BTN.addEventListener('click', OkBtnHandler);
+BOOKMARK_BTN.addEventListener('click', BookmarkBtnHandler);
