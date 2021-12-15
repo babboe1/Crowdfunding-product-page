@@ -168,7 +168,8 @@ SELECT_REWARD1.onclick = () => {
 	BackProjectHandler();
 	INPUT2.checked = 'checked';
 	InputHandler();
-	window.location.href = '#radio_1';
+	document.body.scrollTop = 0;
+	document.documentElement.scrollTop = 0;
 };
 
 SELECT_REWARD2.onclick = () => {
