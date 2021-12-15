@@ -176,7 +176,8 @@ SELECT_REWARD2.onclick = () => {
 	BackProjectHandler();
 	INPUT3.checked = 'checked';
 	InputHandler();
-	window.location.href = '#radio_2';
+	document.body.scrollTop = 400;
+	document.documentElement.scrollTop = 400;
 };
 const ContinuePledge = () => {
 	for (const CONT of CONTINUE_PLEDGE) {
