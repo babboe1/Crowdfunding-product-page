@@ -200,6 +200,9 @@ const UpdateUi = () => {
 			<p>days left</p>
 		</div>
       `;
+   BACKERS.innerHTML = `$${backers.toString()
+      .replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
+	MeterBarHandler();
 };
 
 const OkBtnHandler = () => {
