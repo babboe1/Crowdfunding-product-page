@@ -208,7 +208,7 @@ const clearInput = () => {
 const UserInput = () => {
 	for (const ursInput of USER_INPUTS) {
 		if (ursInput.value != '') {
-			return ursInput.value;
+			return +ursInput.value;
 		}
 	}
 };
