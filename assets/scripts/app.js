@@ -179,6 +179,10 @@ const ContinuePledge = () => {
 	}
 };
 
+const MeterBarHandler = () => {
+	METER_BAR.value = amount;
+};
+
 const UpdateUi = () => {
 	amount += +UserInput();
 	backers += 1;
