@@ -196,7 +196,6 @@ const UpdateUi = () => {
 
 const OkBtnHandler = () => {
 	BackDropHandler();
-	UpdateUi();
 };
 
 const clearInput = () => {
