@@ -180,7 +180,7 @@ const ContinuePledge = () => {
 };
 
 const UpdateUi = () => {
-	amount += Number(UserInput());
+	amount += +UserInput();
 	backers += 1;
 	AMOUNT.innerHTML = `$${amount.toString()
 				.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
