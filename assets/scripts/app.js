@@ -182,23 +182,8 @@ const ContinuePledge = () => {
 const UpdateUi = () => {
 	amount += Number(UserInput());
 	backers += 1;
-	FUND_STATUS.innerHTML = `
-      <div class="StatusBox">
-         <p class="StatusBigText">$${amount
-				.toString()
-				.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</p>
-			<p>of $100,000 backed</p>
-		</div>
-		<div class="StatusBox">
-			<p class="StatusBigText">${backers
-				.toString()
-				.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}<p>
-			<p>total backers</p>
-		</div>
-		<div class="StatusBox" style="border: none">
-			<p class="StatusBigText">56</p>
-			<p>days left</p>
-		</div>
+	AMOUNT.innerHTML = `$${amount.toString()
+				.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
       `;
    BACKERS.innerHTML = `$${backers.toString()
       .replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
