@@ -219,10 +219,10 @@ const UserInput = () => {
 };
 
 const BookmarkBtnHandler = () => {
-   if (BOOKMARK_TEXT.textContent === 'Bookmark') {
-      BOOKMARK_TEXT.textContent = 'Bookmarked';
-      BOOKMARK_TEXT.style.color = 'rgb(21, 122, 116)';
-      BOOKMARK_BTN.firstElementChild.innerHTML =
+	if (BOOKMARK_TEXT.textContent === 'Bookmark') {
+		BOOKMARK_TEXT.textContent = 'Bookmarked';
+		BOOKMARK_TEXT.style.color = 'rgb(21, 122, 116)';
+		BOOKMARK_BTN.firstElementChild.innerHTML =
 			'<svg width="56" height="56" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#39b5ab" cx="28" cy="28" r="28"/><path fill="#fff" d="M23 19v18l5-5.058L33 37V19z"/></g></svg>';
    } else {
       BOOKMARK_TEXT.textContent = 'Bookmark';
