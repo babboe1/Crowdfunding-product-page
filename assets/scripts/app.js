@@ -232,6 +232,13 @@ const BookmarkBtnHandler = () => {
    }
 };
 
+const PledgeSubtractionHandler = () => {
+	if (INPUT2.checked && GRATITUDE.classList.contains('visible')) {
+		PledgeSubtraction(BambooStand);
+	} else if (INPUT3.checked && GRATITUDE.classList.contains('visible')) {
+		PledgeSubtraction(BlackEdition);
+	}
+};
 
 const PledgeSubtraction = (Pledge) => {
 	if (Pledge === 'BambooStand') {
