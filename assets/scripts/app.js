@@ -64,6 +64,7 @@ const BackDropHandler = () => {
 	if (GRATITUDE.classList.contains('visible')) {
 		UpdateUi();
 	}
+	PledgeSubtractionHandler();
 	BackDrop();
 	document.body.classList.remove('StopScroll');
 	MENU_MODAL.classList.remove('visible');
