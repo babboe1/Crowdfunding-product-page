@@ -37,6 +37,10 @@ const PLEDGE_MODAL2 = PLEDGE_MODAL[1];
 const PLEDGE_MODAL3 = PLEDGE_MODAL[2];
 let backers = 5007;
 let amount = 89914;
+let Black_left = 64;
+let Bamboo_left = 101;
+const BambooStand = 'BambooStand';
+const BlackEdition = 'BlackEdition';
 
 const BackDrop = () => {
 	BACKDROP.classList.toggle('visible');
