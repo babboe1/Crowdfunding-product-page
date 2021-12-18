@@ -232,6 +232,21 @@ const BookmarkBtnHandler = () => {
    }
 };
 
+
+const PledgeSubtraction = (Pledge) => {
+	if (Pledge === 'BambooStand') {
+		Bamboo_left -= 1;
+		for (const Element of BAMBOO_STAND) {
+			Element.textContent = +Bamboo_left;
+		}
+	} else if (Pledge === 'BlackEdition') {
+		Black_left -= 1;
+		for (const Element1 of BLACK_EDITION) {
+			Element1.textContent = +Black_left;
+		}
+	}
+};
+
 BACKDROP.addEventListener('click', BackDropHandler);
 MENU_BTN.addEventListener('click', MenuBtnHandler);
 CLOSE_MENU_BTN.addEventListener('click', CloseMenuBtnHandler);
