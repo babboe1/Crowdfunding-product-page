@@ -199,8 +199,9 @@ const MeterBarHandler = () => {
 const UpdateUi = () => {
 	amount += +UserInput();
 	backers += 1;
-	AMOUNT.innerHTML = `$${amount.toString()
-				.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
+	AMOUNT.innerHTML = `$${amount
+		.toString()
+		.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
       `;
    BACKERS.innerHTML = `$${backers.toString()
       .replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
