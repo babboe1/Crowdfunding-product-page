@@ -148,8 +148,8 @@ const InputHandler = () => {
 const BackProjectHandler = () => {
 	BackDrop();
 	PROJECT_DETAILS_BTN.classList.toggle('visible');
-   ContinuePledge();
-   document.body.scrollTop = 0;
+	ContinuePledge();
+	document.body.scrollTop = 0;
 	document.documentElement.scrollTop = 0;
 };
 
