@@ -162,7 +162,11 @@ ContinuePledgeHandler = () => {
 		alert('Minimum Pledge is $25');
 	} else if (INPUT3.checked && (UserInput() < 75 || UserInput() === '')) {
 		alert('Minimum Pledge is $75');
-	} else {
+   }
+   else if (UserInput() > (METER_BAR.max - METER_BAR.value)) {
+         alert(`Maximum donation exceeded, $${METER_BAR.max - METER_BAR.value} remaining `);
+   }
+   else {
 		BackDrop();
 		BackProjectHandler();
 		GRATITUDE.classList.toggle('visible');
