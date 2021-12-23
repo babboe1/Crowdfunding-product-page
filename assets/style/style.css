@@ -314,6 +314,8 @@ input[type='radio']:hover {
 }
 #project_detail {
 	font-size: 16px;
+   height: 80vh;
+   overflow-y: auto;
 }
 .HeaderContainer {
 	display: flex;
