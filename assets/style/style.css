@@ -283,6 +283,7 @@ input[type='radio']:hover {
 	transform: translate(-50%, 0);
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 	display: none;
+   overflow-y: initial;
 }
 .Modal.visible {
 	display: block;
