@@ -180,7 +180,7 @@ SELECT_REWARD1.onclick = () => {
 	INPUT2.checked = 'checked';
 	InputHandler();
 	document.body.scrollTop = 0;
-	document.documentElement.scrollTop = 0;
+   document.getElementById('project_detail').scrollTop = 100;
 };
 
 SELECT_REWARD2.onclick = () => {
