@@ -319,6 +319,9 @@ input[type='radio']:hover {
    -ms-overflow-style: none;
   scrollbar-width: none; 
 }
+#project_detail::-webkit-scrollbar {
+    display: none;
+}
 .HeaderContainer {
 	display: flex;
 	flex-direction: column;
