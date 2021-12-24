@@ -383,9 +383,9 @@ input[type='radio']:hover {
 .Borderline {
 	border: 2px solid #39b5ab;
 }
-button{
-   border: none;
-   border-radius: 40px;
+button {
+	border: none;
+	border-radius: 40px;
 	background-color: #39b5ab;
 	color: #fff;
 	font-weight: 700;
