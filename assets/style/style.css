@@ -89,7 +89,8 @@ body {
 	text-align: center;
 }
 .BackProjectBox:hover,
-.RewardBox:hover, #bookmark_icon,
+.RewardBox:hover,
+#bookmark_icon,
 button:hover {
 	background-color: #157a74;
 	cursor: pointer;
