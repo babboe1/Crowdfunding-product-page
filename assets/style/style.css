@@ -314,10 +314,10 @@ input[type='radio']:hover {
 }
 #project_detail {
 	font-size: 16px;
-   height: 80vh;
-   overflow-y: auto;
-   -ms-overflow-style: none;
-  scrollbar-width: none; 
+	height: 80vh;
+	overflow-y: auto;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
 #project_detail::-webkit-scrollbar {
 	display: none;
