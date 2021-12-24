@@ -316,6 +316,8 @@ input[type='radio']:hover {
 	font-size: 16px;
    height: 80vh;
    overflow-y: auto;
+   -ms-overflow-style: none;
+  scrollbar-width: none; 
 }
 .HeaderContainer {
 	display: flex;
