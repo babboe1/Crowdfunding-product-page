@@ -24,7 +24,7 @@ Users should be able to:
 -  See the number of total backers increase by one after confirming a pledge
 -  Toggle whether or not the product is bookmarked
 -  receive alert if minimum pledge amount is not met
--  see the amount of pledge left after each pledge is made 
+-  see the amount of pledge left after each pledge is made
 
 ### Links
 
