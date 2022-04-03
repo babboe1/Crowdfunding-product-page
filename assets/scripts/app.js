@@ -209,7 +209,7 @@ const UpdateUi = () => {
 		.toString()
 		.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
       `;
-	BACKERS.innerHTML = `$${backers
+	BACKERS.innerHTML = `${backers
 		.toString()
 		.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
 	MeterBarHandler();
