@@ -292,10 +292,10 @@ input[type='radio']:hover {
 }
 @keyframes fade-slide-in {
 	0% {
-   		 transform: translateY(-5rem);
+   		 transform: translate(-50%, -5rem);
 	}
 	100% {
-    		transform: translateY(0);
+    		transform: translate(-500%, 0);
 	}
 }
 #menu_modal div {
