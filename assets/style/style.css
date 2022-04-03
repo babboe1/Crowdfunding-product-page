@@ -294,7 +294,9 @@ input[type='radio']:hover {
 	0% {
    		 transform: translateY(-5rem);
 	}
-	
+	100% {
+    		transform: translateY(0);
+	}
 }
 #menu_modal div {
 	border-bottom: 1px solid #dbdbdb;
