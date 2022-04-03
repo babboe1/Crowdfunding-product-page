@@ -291,7 +291,10 @@ input[type='radio']:hover {
 	animation: fade-slide-in 0.3s ease-out forwards;
 }
 @keyframes fade-slide-in {
-
+	0% {
+   		 transform: translateY(-5rem);
+	}
+	
 }
 #menu_modal div {
 	border-bottom: 1px solid #dbdbdb;
