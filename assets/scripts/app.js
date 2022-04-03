@@ -161,7 +161,7 @@ const CloseModalBtnHandler = () => {
 
 ContinuePledgeHandler = () => {
 	if (INPUT1.checked && (UserInput() < 1 || UserInput() === '')) {
-		
+		alert(' Minimum Pledge is $1');
 	} else if (INPUT2.checked && (UserInput() < 25 || UserInput() === '')) {
 		alert('Minimum Pledge is $25');
 	} else if (INPUT3.checked && (UserInput() < 75 || UserInput() === '')) {
