@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-Below is a preview of the screenshot
+Below is a preview of the Crowdfunding landing Page <br/>
 
 ### Links
 
