@@ -28,6 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
+Below is a preview of the screenshot
+
 ### Links
 
 -  Live Site URL: [Add live site URL here](https://babboe1-crowdfunding-product-page.netlify.app/)
