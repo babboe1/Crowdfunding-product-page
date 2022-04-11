@@ -26,6 +26,8 @@ Users should be able to:
 -  receive alert if minimum pledge amount is not met
 -  see the amount of pledge left after each pledge is made
 
+### Screenshot
+
 ### Links
 
 -  Live Site URL: [Add live site URL here](https://babboe1-crowdfunding-product-page.netlify.app/)
