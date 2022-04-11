@@ -44,5 +44,6 @@ Below is a preview of the Crowdfunding landing Page <br/>
 
 ## Author
 
+-  LinkedIn
 -  Frontend Mentor - [@babboe1](https://www.frontendmentor.io/profile/babboe1)
 -  Twitter - [@ausstinab](https://www.twitter.com/ausstinab)
