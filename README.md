@@ -33,7 +33,7 @@ Below is a preview of the Crowdfunding landing Page <br/>
 
 ### Links
 
--  Live Site URL: [Add live site URL here](https://babboe1-crowdfunding-product-page.netlify.app/)
+-  Live Site URL: [Crowdfunding Landing Page](https://babboe1-crowdfunding-product-page.netlify.app/)
 
 ## My process
 
