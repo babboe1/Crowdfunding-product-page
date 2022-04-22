@@ -174,7 +174,7 @@ ContinuePledgeHandler = () => {
 		INPUT3.checked &&
 		(UserInput() < 75 || UserInput() === '' || UserInput() === undefined)
 	) {
-		alert('Minimum Pledge is $75');
+		alert('Invalid Minimum Pledge is $75');
 	} else if (UserInput() > METER_BAR.max - METER_BAR.value) {
 		alert(
 			`Maximum donation exceeded, $${
