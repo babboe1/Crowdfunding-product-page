@@ -7,7 +7,6 @@ const BOOKMARK_BTN = document.getElementById('bookmark_icon');
 const BOOKMARK_TEXT = document.getElementById('bookmark_text');
 const MENU_MODAL = document.getElementById('menu_modal').parentElement;
 const BACK_PROJECT_BTN = document.querySelector('.BackProjectBox');
-const FUND_STATUS = document.getElementById('fund_status');
 const AMOUNT = document.getElementById('amount');
 const BACKERS = document.getElementById('backers');
 const METER_BAR = document.getElementById('meter_bar');
