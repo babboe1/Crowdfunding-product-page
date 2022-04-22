@@ -172,11 +172,13 @@ ContinuePledgeHandler = () => {
 		(UserInput() < 75 || UserInput() === '' || UserInput() === undefined)
 	) {
 		alert('Minimum Pledge is $75');
-   }
-   else if (UserInput() > (METER_BAR.max - METER_BAR.value)) {
-         alert(`Maximum donation exceeded, $${METER_BAR.max - METER_BAR.value} remaining `);
-   }
-   else {
+	} else if (UserInput() > METER_BAR.max - METER_BAR.value) {
+		alert(
+			`Maximum donation exceeded, $${
+				METER_BAR.max - METER_BAR.value
+			} remaining `,
+		);
+	} else {
 		BackDrop();
 		BackProjectHandler();
 		GRATITUDE.classList.toggle('visible');
