@@ -150,9 +150,9 @@ const BackProjectHandler = () => {
 	PROJECT_DETAILS_BTN.classList.toggle('visible');
 	ContinuePledge();
 	document.body.scrollTop = 0;
-   document.documentElement.scrollTop = 0;
-   document.getElementById('project_detail').scrollTop = 0;
-   StopScroll();
+	document.documentElement.scrollTop = 0;
+	document.getElementById('project_detail').scrollTop = 0;
+	StopScroll();
 };
 
 const CloseModalBtnHandler = () => {
