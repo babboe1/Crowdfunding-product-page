@@ -202,8 +202,8 @@ SELECT_REWARD2.onclick = () => {
 	BackProjectHandler();
 	INPUT3.checked = 'checked';
 	InputHandler();
-   document.body.scrollTop = 0;
-   document.getElementById('project_detail').scrollTop = 400;
+	document.body.scrollTop = 0;
+	document.getElementById('project_detail').scrollTop = 400;
 };
 const ContinuePledge = () => {
 	for (const CONT of CONTINUE_PLEDGE) {
