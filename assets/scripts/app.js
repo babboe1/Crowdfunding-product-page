@@ -160,7 +160,9 @@ const CloseModalBtnHandler = () => {
 };
 
 ContinuePledgeHandler = () => {
-	if (INPUT1.checked && (UserInput() < 1 || UserInput() === '' || UserInput() === undefined)) {
+   if (INPUT1.checked &&
+      (UserInput() < 1 || UserInput() === '' || UserInput() === undefined))
+   {
 		alert('Invalid Input, Minimum Pledge is $1');
 	} else if (
 		INPUT2.checked &&
