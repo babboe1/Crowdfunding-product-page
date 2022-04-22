@@ -169,7 +169,7 @@ ContinuePledgeHandler = () => {
 		INPUT2.checked &&
 		(UserInput() < 25 || UserInput() === '' || UserInput() === undefined)
 	) {
-		alert('Minimum Pledge is $25');
+		alert('Invalid Minimum Pledge is $25');
 	} else if (
 		INPUT3.checked &&
 		(UserInput() < 75 || UserInput() === '' || UserInput() === undefined)
