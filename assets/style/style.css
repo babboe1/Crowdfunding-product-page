@@ -357,6 +357,7 @@ input[type='radio']:hover {
 	display: flex;
 	flex-direction: column;
 	padding: 2rem;
+   animation: trans .3s ease-in forwards;
 }
 .PledgeBoxModal {
 	border: 1px solid #dbdbdb;
