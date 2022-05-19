@@ -10,6 +10,9 @@ body {
 	font-family: 'Commissioner', sans-serif;
 	font-size: 14px;
 	color: #848484;
+   width: 100%;
+   max-width: 1600px;
+   margin: auto;
 }
 * {
 	box-sizing: border-box;
