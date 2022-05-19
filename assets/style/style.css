@@ -556,6 +556,6 @@ button {
 }
 @media screen and (min-width: 1600px) {
 	#content_container {
-		margin-top: 2rem;
+		margin-top: 0rem;
 	}
 }
