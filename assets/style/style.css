@@ -296,7 +296,7 @@ input[type='radio']:hover {
 }
 @keyframes fade-slide-in {
 	0% {
-   		 transform: translate(-50%, -5rem);
+		transform: translate(-50%, -5rem);
 	}
 	100% {
     		transform: translate(-50%, 0);
