@@ -299,7 +299,7 @@ input[type='radio']:hover {
 		transform: translate(-50%, -5rem);
 	}
 	100% {
-    		transform: translate(-50%, 0);
+		transform: translate(-50%, 0);
 	}
 }
 #menu_modal div {
