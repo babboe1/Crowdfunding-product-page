@@ -7,9 +7,9 @@ body {
 	font-family: 'Commissioner', sans-serif;
 	font-size: 14px;
 	color: #848484;
-   width: 100%;
-   max-width: 1600px;
-   margin: auto;
+	width: 100%;
+	max-width: 1600px;
+	margin: auto;
 }
 * {
 	box-sizing: border-box;
@@ -302,14 +302,14 @@ input[type='radio']:hover {
 @keyframes trans {
 	0% {
 		opacity: 0;
-      transform: translateY(-5rem);
+		transform: translateY(-5rem);
 	}
-   20% {
-      opacity: 0;
-   }
+	20% {
+		opacity: 0;
+	}
 	100% {
-		opacity:100%;
-      transform: translateY(0);
+		opacity: 100%;
+		transform: translateY(0);
 	}
 }
 #menu_modal div {
@@ -354,7 +354,7 @@ input[type='radio']:hover {
 	display: flex;
 	flex-direction: column;
 	padding: 2rem;
-   animation: trans .3s ease-in forwards;
+	animation: trans 0.3s ease-in forwards;
 }
 .PledgeBoxModal {
 	border: 1px solid #dbdbdb;
@@ -416,11 +416,11 @@ button {
 	font-size: 1rem;
 }
 .attribution {
-   font-size: 11px;
-   text-align: center;
+	font-size: 11px;
+	text-align: center;
 }
 .attribution a {
-   color: hsl(228, 45%, 44%);
+	color: hsl(228, 45%, 44%);
 }
 
 @media screen and (min-width: 700px) {
