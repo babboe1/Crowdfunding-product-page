@@ -302,6 +302,19 @@ input[type='radio']:hover {
 		transform: translate(-50%, 0);
 	}
 }
+@keyframes trans {
+	0% {
+		opacity: 0;
+      transform: translateY(-5rem);
+	}
+   20% {
+      opacity: 0;
+   }
+	100% {
+		opacity:100%;
+      transform: translateY(0);
+	}
+}
 #menu_modal div {
 	border-bottom: 1px solid #dbdbdb;
 	font-size: 1rem;
