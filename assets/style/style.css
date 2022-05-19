@@ -425,7 +425,6 @@ button {
 }
 
 @media screen and (min-width: 700px) {
-	html,
 	body {
 		background: url(/assets/images/image-hero-desktop.jpg);
 		background-color: #fafafa;
