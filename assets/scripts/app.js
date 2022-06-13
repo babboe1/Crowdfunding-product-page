@@ -40,6 +40,7 @@ let Black_left = 64;
 let Bamboo_left = 101;
 const BambooStand = 'BambooStand';
 const BlackEdition = 'BlackEdition';
+const [SELECT_1, SELECT_2] = document.querySelectorAll('.select-reward');
 
 const BackDrop = () => {
 	BACKDROP.classList.toggle('visible');
