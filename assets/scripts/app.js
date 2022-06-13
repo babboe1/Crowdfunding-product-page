@@ -217,7 +217,7 @@ SELECT_REWARD2.onclick = () => {
 	selectReward2();
 };
 SELECT_2.onclick = () => {
-   selectReward2();
+	selectReward2();
 };
 const ContinuePledge = () => {
 	for (const CONT of CONTINUE_PLEDGE) {
