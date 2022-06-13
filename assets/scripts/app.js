@@ -204,7 +204,7 @@ SELECT_1.onclick = () => {
    selectReward1();
 };
 
-SELECT_REWARD2.onclick = () => {
+const selectReward2 = () => {
 	BackProjectHandler();
 	INPUT3.checked = 'checked';
 	InputHandler();
