@@ -211,6 +211,11 @@ SELECT_REWARD2.onclick = () => {
 	document.body.scrollTop = 0;
 	document.getElementById('project_detail').scrollTop = 400;
 };
+
+SELECT_REWARD2.onclick = () => {
+	selectReward2();
+};
+
 const ContinuePledge = () => {
 	for (const CONT of CONTINUE_PLEDGE) {
 		CONT.addEventListener('click', ContinuePledgeHandler);
