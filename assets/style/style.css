@@ -29,6 +29,10 @@ body {
 	justify-content: space-between;
 	height: 23rem;
 }
+#right_bar a {
+   color: rgb(219, 214, 214);
+   text-decoration: none;
+}
 #right_bar {
 	display: none;
 }
