@@ -215,7 +215,9 @@ const selectReward2 = () => {
 SELECT_REWARD2.onclick = () => {
 	selectReward2();
 };
-
+SELECT_2.onclick = () => {
+   selectReward2();
+};
 const ContinuePledge = () => {
 	for (const CONT of CONTINUE_PLEDGE) {
 		CONT.addEventListener('click', ContinuePledgeHandler);
