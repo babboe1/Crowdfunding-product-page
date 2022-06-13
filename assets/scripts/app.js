@@ -307,3 +307,6 @@ INPUT3.addEventListener('change', InputHandler);
 INPUTS[6].addEventListener('change', InputHandler);
 OK_BTN.addEventListener('click', OkBtnHandler);
 BOOKMARK_BTN.addEventListener('click', BookmarkBtnHandler);
+document
+	.getElementById('discover')
+	.addEventListener('click', BackProjectHandler);
