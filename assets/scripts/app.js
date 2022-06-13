@@ -200,7 +200,9 @@ const selectReward1 = () => {
 SELECT_REWARD1.onclick = () => {
 	selectReward1();
 };
-
+SELECT_1.onclick = () => {
+   selectReward1();
+};
 
 SELECT_REWARD2.onclick = () => {
 	BackProjectHandler();
