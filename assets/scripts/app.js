@@ -191,11 +191,11 @@ ContinuePledgeHandler = () => {
 };
 
 const selectReward1 = () => {
-   BackProjectHandler();
-   INPUT2.checked = 'checked';
-   InputHandler();
-   document.body.scrollTop = 0;
-   document.getElementById('project_detail').scrollTop = 100;
+	BackProjectHandler();
+	INPUT2.checked = 'checked';
+	InputHandler();
+	document.body.scrollTop = 0;
+	document.getElementById('project_detail').scrollTop = 100;
 };
 
 SELECT_REWARD1.onclick = () => {
