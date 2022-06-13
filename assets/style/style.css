@@ -414,6 +414,9 @@ button {
 	height: 100%;
 	font-size: 1rem;
 }
+.close-btn img:hover {
+	cursor: pointer;
+}
 .attribution {
 	font-size: 11px;
 	text-align: center;
