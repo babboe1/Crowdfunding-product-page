@@ -202,7 +202,7 @@ SELECT_REWARD1.onclick = () => {
 	selectReward1();
 };
 SELECT_1.onclick = () => {
-   selectReward1();
+	selectReward1();
 };
 
 const selectReward2 = () => {
