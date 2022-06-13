@@ -197,6 +197,11 @@ const selectReward1 = () => {
    document.getElementById('project_detail').scrollTop = 100;
 };
 
+SELECT_REWARD1.onclick = () => {
+	selectReward1();
+};
+
+
 SELECT_REWARD2.onclick = () => {
 	BackProjectHandler();
 	INPUT3.checked = 'checked';
